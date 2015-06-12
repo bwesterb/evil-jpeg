@@ -18,8 +18,8 @@ def main():
         f.write('\xff\xc0') # marker
         f.write('\x00\x14') # size
         f.write('\x08')     # precision 8 bits
-        f.write('\xff\xff') # height (64K)
-        f.write('\xff\xff') # width (64K)
+        f.write('\xff\xdb') # height (64K)
+        f.write('\xff\xdb') # width (64K)
         f.write('\x04')     # four color components
         f.write('\x01\x11\x00')
         f.write('\x02\x11\x00')
